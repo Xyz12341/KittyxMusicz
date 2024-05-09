@@ -14,7 +14,7 @@ from pyrogram import filters
 load_dotenv()
 
 from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import MOON
+from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import db
 from ANNIEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from ANNIEMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
