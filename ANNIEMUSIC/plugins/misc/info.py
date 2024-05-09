@@ -13,10 +13,10 @@ import random
 
 # List of Annie's photos
 anniephoto = [
-    "https://telegra.ph/file/07fd9e0e34bc84356f30d.jpg",
-    "https://telegra.ph/file/3c4de59511e179018f902.jpg",
-    "https://telegra.ph/file/07fd9e0e34bc84356f30d.jpg",
-    "https://telegra.ph/file/3c4de59511e179018f902.jpg"
+    "https://telegra.ph/file/6451fd6cb3afd3f8939b1.jpg",
+    "https://telegra.ph/file/61d32d65aebdca6568e40.jpg",
+    "https://telegra.ph/file/6451fd6cb3afd3f8939b1.jpg",
+    "https://telegra.ph/file/61d32d65aebdca6568e40.jpg"
 ]
 
 # Function to get font
