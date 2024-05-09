@@ -9,14 +9,14 @@ from pyrogram.types import *
 
 
 mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client["JARVISV1"]
+db = mongo_client["Moonshining2"]
 collection = db["ranking"]
 
 user_data = {}
 
 today = {}
 
-pic = "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg"
+pic = "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg"
 
 
 # ------------------- watcher ----------------------- #
