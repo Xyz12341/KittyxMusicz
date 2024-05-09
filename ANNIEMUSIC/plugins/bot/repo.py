@@ -4,19 +4,19 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-🫧 ωεℓ¢σмє ƒσя ɱσσɳ яєρσѕ 🫧
-
+✪ ωεℓ¢σмє ƒσя ɱσσɳ яєρσѕ ✪
+ 
  ✰ ᴊɪᴛɴᴇ ʙʜɪ ɢᴄ ɴɪᴄᴄʜᴇ ᴅɪʏᴇ ʜᴀɪ ᴠᴏ sᴜʙ ᴊᴏɪɴ ᴋʀ ʟᴏ.....
  
  ✰ ᴀɢʀ ʀᴇᴘᴏ ᴄʜᴇɪʏᴇ ᴛᴏ ᴍᴏᴏɴ ᴋᴏ ᴅᴍ ᴋʀ ʟᴇ ᴠᴏ ᴅᴇ ᴅᴇɢᴀ ʀᴇᴘo...
-
+ 
  ✰ ʜᴇʀᴏᴋᴜᴇ ɪᴅ ᴄʜᴇɪʏᴇ ᴛᴏ ʙʜɪ ᴍᴏᴏɴ ᴋᴏ ᴅᴍ ᴋʀ ʟᴏ ᴍɪʟ ᴊᴀʏᴇɢɪ...
  
- ✰ ʏᴇ ʙᴏᴛ ᴀᴘɴᴇ ɢᴄ ᴍᴇ ᴀᴅᴅ ᴋʀ ʟᴇɴᴀ.....
+ ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
  
- ✰ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
+ ➲ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
  
- ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss ᴏʀ ᴅᴍ...
+ ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
 **"""
 
 
@@ -27,28 +27,21 @@ async def start(_, msg):
     buttons = [
      
             [ 
-            InlineKeyboardButton("🌊𝐓ᴀᴘ 𝐓o 𝐒ᴇᴇ 𝐓ʜᴇ 𝐌ᴀɢɪᴄ✨ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("🌊𝐓ᴀᴘ 𝐓o 𝐒ᴇᴇ 𝐓ʜᴇ 𝐌ᴀɢɪᴄ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
             [
-             InlineKeyboardButton("💌 𝐇ᴇʟᴘ 💟", url="https://t.me/Grandxmasti"),
-             InlineKeyboardButton("🕸 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 🍃", url="https://t.me/Moonshining2"),
+             InlineKeyboardButton("𝐌ᴏᴏɴ🌙♡", url="https://t.me/Moonshining2"),
+             InlineKeyboardButton("💌 𝐇ᴇʟᴘ 💟", url="https://t.me/Kittyxupdates"),
              ],
      
              [
-             InlineKeyboardButton("💫 𝐌ᴏᴏɴ 𝐍ᴇᴛᴡᴏʀᴋ 🫧", url="https://t.me/Kittyxupdates"),
+             InlineKeyboardButton("︎🫧 𝐆ʀᴀɴᴅᴍᴀsᴛɪ 🫧", url="https://t.me/Grandxmasti"),          
+             InlineKeyboardButton("︎𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ", url=f"https://t.me/itz_PWM"),
              ],
      
-             [
-             InlineKeyboardButton(" 𝐌ᴏᴏɴ🌙♡︎", url=f"https://t.me/Moonshining6"),            
-             InlineKeyboardButton("︎🫧 𝐆ʀᴀɴᴅᴍᴀsᴛɪ 🫧", url=f"https://t.me/Grandxmasti"),
-              ],
-              
-              [
-              InclineKeyboardButton("𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ 𝟵𝐭𝐡,𝟭𝟬𝐭𝐡,𝟭𝟭𝐭𝐡", url=f"https://t.me/itz_PWM"),
               ]
-       ]
-    
+ 
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
