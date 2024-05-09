@@ -4,19 +4,19 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+🫧 ωεℓ¢σмє ƒσя ɱσσɳ яєρσѕ 🫧
+
+ ✰ ᴊɪᴛɴᴇ ʙʜɪ ɢᴄ ɴɪᴄᴄʜᴇ ᴅɪʏᴇ ʜᴀɪ ᴠᴏ sᴜʙ ᴊᴏɪɴ ᴋʀ ʟᴏ.....
  
- ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ ✰ ᴀɢʀ ʀᴇᴘᴏ ᴄʜᴇɪʏᴇ ᴛᴏ ᴍᴏᴏɴ ᴋᴏ ᴅᴍ ᴋʀ ʟᴇ ᴠᴏ ᴅᴇ ᴅᴇɢᴀ ʀᴇᴘo...
+
+ ✰ ʜᴇʀᴏᴋᴜᴇ ɪᴅ ᴄʜᴇɪʏᴇ ᴛᴏ ʙʜɪ ᴍᴏᴏɴ ᴋᴏ ᴅᴍ ᴋʀ ʟᴏ ᴍɪʟ ᴊᴀʏᴇɢɪ...
  
- ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
+ ✰ ʏᴇ ʙᴏᴛ ᴀᴘɴᴇ ɢᴄ ᴍᴇ ᴀᴅᴅ ᴋʀ ʟᴇɴᴀ.....
  
- ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
+ ✰ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
  
- ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
- 
- ➲ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
- 
- ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
+ ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss ᴏʀ ᴅᴍ...
 **"""
 
 
@@ -27,21 +27,28 @@ async def start(_, msg):
     buttons = [
      
             [ 
-            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙᴇs✪", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("🌊𝐓ᴀᴘ 𝐓o 𝐒ᴇᴇ 𝐓ʜᴇ 𝐌ᴀɢɪᴄ✨ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
             [
-             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/JARVIS_V_SUPPORT"),
+             InlineKeyboardButton("💌 𝐇ᴇʟᴘ 💟", url="https://t.me/Grandxmasti"),
+             InlineKeyboardButton("🕸 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 🍃", url="https://t.me/Moonshining2"),
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Dora_Hub"),          
-             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://github.com/doraemon890/ANNIE-X-MUSIC"),
+             InlineKeyboardButton("💫 𝐌ᴏᴏɴ 𝐍ᴇᴛᴡᴏʀᴋ 🫧", url="https://t.me/Kittyxupdates"),
              ],
      
+             [
+             InlineKeyboardButton(" 𝐌ᴏᴏɴ🌙♡︎", url=f"https://t.me/Moonshining6"),            
+             InlineKeyboardButton("︎🫧 𝐆ʀᴀɴᴅᴍᴀsᴛɪ 🫧", url=f"https://t.me/Grandxmasti"),
+              ],
+              
+              [
+              InclineKeyboardButton("𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ 𝟵𝐭𝐡,𝟭𝟬𝐭𝐡,𝟭𝟭𝐭𝐡",url=f"https://t.me/itz_PWM"),
               ]
- 
+       ]
+    
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
