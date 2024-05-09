@@ -45,7 +45,7 @@ async def start(_, msg):
               ],
               
               [
-              InclineKeyboardButton("𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ 𝟵𝐭𝐡,𝟭𝟬𝐭𝐡,𝟭𝟭𝐭𝐡",url=f"https://t.me/itz_PWM"),
+              InclineKeyboardButton("𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ 𝟵𝐭𝐡,𝟭𝟬𝐭𝐡,𝟭𝟭𝐭𝐡", url=f"https://t.me/itz_PWM"),
               ]
        ]
     
