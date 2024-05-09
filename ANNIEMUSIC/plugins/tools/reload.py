@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from KITTYMUSIC import app
-from KITTYMUSIC.core.call import MOON
-from KITTYMUSIC.misc import db
-from KITTYMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from KITTYMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from KITTYMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from ANNIEMUSIC import app
+from ANNIEMUSIC.core.call import MOON
+from ANNIEMUSIC.misc import db
+from ANNIEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from ANNIEMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from ANNIEMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -70,7 +70,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await MOON.stop_stream_force(message.chat.id)
+        await JARVIS.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
@@ -97,7 +97,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await MOON.stop_stream_force(chat_id)
+            await JARVIS.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
