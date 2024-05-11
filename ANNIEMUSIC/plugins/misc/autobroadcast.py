@@ -6,7 +6,6 @@ from config import START_IMG_URL
 from ANNIEMUSIC.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-START_IMG_URLS = "https://telegra.ph/file/f6aca1c3d811f3164afb2.jpg"
 
 MESSAGE = f"""**╭───────────────────⦿
   │☄️ ▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs
@@ -40,6 +39,7 @@ async def send_message_to_chats():
             chat_id = chat_info.get('chat_id')
             if isinstance(chat_id, int):  # Check if chat_id is an integer
                 try:
+                    await app.send_photo(chat_id, photo=START_IMG_URL, caption=MESSAGE, reply_markup=BUTTON)
                     await asyncio.sleep(3)  # Sleep for 1 second between sending messages
                 except Exception as e:
                     pass  # Do nothing if an error occurs while sending message
