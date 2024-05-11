@@ -6,6 +6,7 @@ from config import START_IMG_URL
 from ANNIEMUSIC.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+START_IMG_URLS = "https://telegra.ph/file/f6aca1c3d811f3164afb2.jpg"
 
 MESSAGE = f"""**╭───────────────────⦿
   │☄️ ▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs
