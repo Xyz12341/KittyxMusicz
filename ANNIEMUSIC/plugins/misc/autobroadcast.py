@@ -7,11 +7,7 @@ from ANNIEMUSIC.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ + ᴍᴀɴᴀɢᴇᴍɴᴇᴛ ʀᴏʙᴏᴛ + CHAT BOT 💗. 💌
-
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
-
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟʏʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... all in one bot 💕
+MESSAGE = f"""**MESSAGE = f"""**╭───────────────────⦿\n│🐬 ▸ ʜᴇʏ, {0} \n│🌙 ▸ ɪ'ᴍ {1} \n├───────────────────⦿\n│☄️ ▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs\n│✨ ▸ ᴀʟʟ-ɪɴ-ᴏɴᴇ ʙᴏᴛ\n├───────────────────⦿\n│🌴 ▸ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs\n│💫 ▸ ᴄʜᴀᴛ-ʙᴏᴛ + ᴍᴜsɪᴄ-ʙᴏᴛ\n│💤 ▸ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ\n│🍁 ▸ ɢᴇɴᴇʀᴀᴛᴏʀ ɪᴍᴀɢᴇs + ᴛᴀɢ ᴀʟʟ\n│🌠 ▸ ᴡᴇʟᴄᴏᴍᴇ + ʟᴇғᴛ ɴᴏᴛɪᴄᴇ\n│🕳️ ▸ 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ\n├───────────────────⦿\n│🍷 ᴛᴀᴘ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅs ᴍʏ ᴅᴇᴀʀ\n│🍹 ᴍᴀᴅᴇ ʙʏ🪽 ➪ [🇲σ᭡፝֟ɳ🌙♡︎](https://t.me/Moonshining2)\n╰───────────────────⦿
 
 🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
 
@@ -20,7 +16,7 @@ MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇ ᴍᴜsɪᴄ ᴘ�
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("˹🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️˼", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
