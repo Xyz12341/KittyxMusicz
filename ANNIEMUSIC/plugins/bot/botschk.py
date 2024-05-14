@@ -28,7 +28,7 @@ userbot = Userbot()
 
 BOT_LIST = ["[🇲σ᭡፝֟ɳ🌙](https://t.me/Moonshining2)", "[˹𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼](https://t.me/kittyxmusic_bot)", "[˹ 𝐊íԵԵყ ✘ Chat ˼](https://t.me/kittyxchat_bot", "[˹sᴛꝛɪɴɢ ғᴧᴛʜᴇꝛ ʙᴏᴛ˼](https://t.me/StringxFatherBot)", "[ᴋɪᴛᴛʏ ᴜᴘᴅᴀᴛᴇs](https://t.me/kittyxupdates)"]
 
-@app.on_message(filters.command("botschk") & filters.user(OWNER_ID))
+@app.on_message(filters.command("bot") & filters.user(OWNER_ID))
 async def bots_chk(_, message):
     msg = await message.reply_photo(photo="https://telegra.ph/file/4d303296e4fac9a40ea07.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
     response = "**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ @Kittyxupdates**\n\n"
