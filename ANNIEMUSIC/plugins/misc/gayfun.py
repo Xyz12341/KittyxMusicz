@@ -15,11 +15,11 @@ def calculate_gay_percentage():
 def generate_gay_response(gay_percentage):
     # Define random texts and emojis for different gay percentage ranges
     if gay_percentage < 30:
-        return "You're straight as an arrow. 🏳️‍🌈"
+        return "You're straight as an arrow. 🏳️‍🌈 @Kitttxupdates"
     elif 30 <= gay_percentage < 70:
-        return "You might have a bit of a rainbow in you. 🌈"
+        return "You might have a bit of a rainbow in you. 🌈 @Kittyxupdates"
     else:
-        return "You're shining with rainbow colors! 🌟🏳️‍🌈"
+        return "You're shining with rainbow colors! 🌟🏳️‍🌈@kittyxupdates"
 
 @app.on_message(filters.command("gay") & filters.regex(r'^/gay$'))
 def gay_calculator_command(client, message: Message):
