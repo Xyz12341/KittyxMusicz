@@ -5,7 +5,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, Message
 
-from ANNIEMUSIC.modules.help import add_command_help
+from ANNIEMUSIC.plugins.bot import add_command_help
 
 incorrect_parameters = f"Parameter Wrong, Type `.help locks`"
 data = {
