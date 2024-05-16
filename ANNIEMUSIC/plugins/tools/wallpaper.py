@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from ANNIEMUSIC import JARVIS
 
-@pbot.on_message(filters.command(["wall", "wallpaper"]))
+@JARVIS.on_message(filters.command(["wall", "wallpaper"]))
 async def wall(_, message: Message):
     " ғɪxᴇᴅ ᴡᴀʟʟ ʙʏ ᴍᴏᴏɴ"
     try:
