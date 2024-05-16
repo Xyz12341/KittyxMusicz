@@ -11,6 +11,16 @@ from pyrogram.enums import *
 from ANNIEMUSIC import app as app
 from ANNIEMUSIC.mongo.couples_db import _get_image, get_couple
 
+POLICE = [
+    [
+        InlineKeyboardButton(
+            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            url=f"https://t.me/kittyxmusic_bot?startgroup=true",
+        ),
+    ],
+]
+
+
 def dt():
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M")
