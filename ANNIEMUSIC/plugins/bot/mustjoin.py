@@ -12,7 +12,7 @@ MISHI = [
     "https://telegra.ph/file/604c0e2eca117f407da24.jpg",
     "https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
     "https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
-    "https://telegra.ph/file/604c0e2eca117f407da24.jpg"
+    "https://telegra.ph/file/604c0e2eca117f407da24.jpg",
     "https://telegra.ph/file/604c0e2eca117f407da24.jpg",
     "https://graph.org/file/0bfe29d15e918917d1305.jpg",
     "https://graph.org/file/16b1a2828cc507f8048bd.jpg",
