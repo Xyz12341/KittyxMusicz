@@ -63,7 +63,7 @@ async def get_userinfo_img(
     return path
 
 # Path to background image and font
-bg_path = "ANNIEMUSIC/assets/annie/AnnieNinfo.png"
+bg_path = "ANNIEMUSIC/assets/annie/ANNIEINFO.png"
 font_path = "ANNIEMUSIC/assets/annie/jarvisinf.ttf"
 
 # Text template for user info
