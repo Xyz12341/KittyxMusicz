@@ -66,7 +66,7 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("ANNIEMUSIC/assets/annie/AnnieNwel.png")
+    background = Image.open("ANNIEMUSIC/assets/annie/ANNIEWELL.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((835, 839))
@@ -131,7 +131,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 user.photo.big_file_id, file_name=f"pp{user.id}.png"
             )
         except AttributeError:
-            pic = "ANNIEMUSIC/assets/upic.png"
+            pic = "ANNIEMUSIC/assets/upicc.png"
         if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
             try:
                 await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
