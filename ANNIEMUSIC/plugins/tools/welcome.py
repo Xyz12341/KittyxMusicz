@@ -66,7 +66,7 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("ANNIEMUSIC/assets/annie/AnnieNwel.png")
+    background = Image.open("ANNIEMUSIC/assets/annie/ANNIEWEL.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((835, 839))
@@ -83,7 +83,7 @@ def welcomepic(pic, user, chatname, id, uname):
 
 @app.on_message(filters.command("wel") & ~filters.private)
 async def auto_state(_, message):
-    usage = "**Usage:**\n⦿/wel [on|off]\n➤ANNIE SPECIAL WELCOME.........."
+    usage = "**Usage:**\n⦿/wel [on|off]\n➤KITTY SPECIAL WELCOME.........."
     if len(message.command) == 1:
         return await message.reply_text(usage)
     chat_id = message.chat.id
@@ -141,8 +141,8 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             welcomeimg = welcomepic(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
-            button_text = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
-            add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
+            button_text = "💤 ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ 💤"
+            add_button_text = "🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️"
             deep_link = f"tg://openmessage?user_id={user.id}"
             add_link = f"https://t.me/{app.username}?startgroup=true"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
