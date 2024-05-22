@@ -96,8 +96,11 @@ def welcomepic(pic, user, chatname, id, uname):
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('ANNIEMUSIC/assets/annie/font.ttf', size=105)
     welcome_font = ImageFont.truetype('ANNIEMUSIC/assets/annie/font.ttf', size=55)
+            # Draw user's name with shining red fill and dark saffron border
     draw.text((1844, 1043), f': {user}', fill=(238, 130, 238), font=font)
+            # Draw user's id with shining blue fill and white border
     draw.text((1542, 1263), f': {id}', fill=(238, 130, 238), font=font)
+            # Draw user's username with white fill and green border
     draw.text((1920, 1502), f": {uname}", fill=(238, 130, 238), font=font)
     pfp_position = (255, 330)
     background.paste(pfp, pfp_position, pfp)
