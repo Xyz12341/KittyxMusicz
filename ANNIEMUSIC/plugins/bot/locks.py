@@ -3,7 +3,6 @@ from typing import Optional, List
 
 import telegram.ext as tg
 from telegram import Message, Chat, Update, Bot, User, MessageEntity
-from telegram import TelegramError
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
@@ -72,11 +71,7 @@ def restr_members(bot, chat_id, members, messages=False, media=False, other=Fals
                                      can_send_messages=messages,
                                      can_send_media_messages=media,
                                      can_send_other_messages=other,
-                                     can_add_web_page_previews=previews)
-        except TelegramError:
-            pass
-
-
+                                     
 # NOT ASYNC
 def unrestr_members(bot, chat_id, members, messages=True, media=True, other=True, previews=True):
     for mem in members:
@@ -85,11 +80,7 @@ def unrestr_members(bot, chat_id, members, messages=True, media=True, other=True
                                      can_send_messages=messages,
                                      can_send_media_messages=media,
                                      can_send_other_messages=other,
-                                     can_add_web_page_previews=previews)
-        except TelegramError:
-            pass
-
-
+                                     
 @run_async
 def locktypes(bot: Bot, update: Update):
     update.effective_message.reply_text("\n - ".join(["Locks: "] + list(LOCK_TYPES) + list(RESTRICTION_TYPES)))
