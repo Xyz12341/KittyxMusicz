@@ -15,7 +15,7 @@ from ANNIEMUSIC.plugins.bot.disable import DisableAbleCommandHandler
 from ANNIEMUSIC.plugins.bot.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
     bot_can_delete, is_bot_admin
 from ANNIEMUSIC.plugins.bot.log_channel import loggable
-from ANNIEMUSIC.plugins.bot. import users_bot
+from ANNIEMUSIC.plugins.bot import users_sql
 
 LOCK_TYPES = {'sticker': Filters.sticker,
               'audio': Filters.audio,
