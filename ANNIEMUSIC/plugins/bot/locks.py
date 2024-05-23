@@ -2,7 +2,7 @@ import html
 from typing import Optional, List
 
 import telegram.ext as tg
-from telegram import Message, Chat, Update, Bot, ParseMode, User, MessageEntity
+from telegram import Message, Chat, Update, Bot, , User, MessageEntity
 from telegram import TelegramError
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters
@@ -277,8 +277,6 @@ def list_locks(bot: Bot, update: Update):
     chat = update.effective_chat  # type: Optional[Chat]
 
     res = build_lock_message(chat.id)
-
-    update.effective_message.reply_text(res, parse_mode=ParseMode.MARKDOWN)
 
 
 def __migrate__(old_chat_id, new_chat_id):
