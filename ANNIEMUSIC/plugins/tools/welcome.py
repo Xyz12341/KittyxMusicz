@@ -167,7 +167,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
         ],
         outline=(0, 128, 0),
         width=25,
-    )  # Green border
+    )  # Light Red border
 
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
