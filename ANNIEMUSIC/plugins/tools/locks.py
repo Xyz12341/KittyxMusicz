@@ -43,8 +43,6 @@ from .help import *
 @app.on_message(
     filters.command(["lock", "locks", "band"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group & ~BANNED_USERS
 )
-incorrect_parameters = "Incorrect Parameters, Type help locks for help."
-
 data = {
     "msg": "can_send_messages",
     "stickers": "can_send_other_messages",
