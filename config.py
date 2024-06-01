@@ -31,6 +31,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Moonshining1/KittyxMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
+CMD_HNDLR = cmd
+CMD_HANDLER = getenv("CMD_HANDLER", ".")
 
 # Support and contact information - Provide your own support channels
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kittyxupdates")
