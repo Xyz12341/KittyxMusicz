@@ -14,7 +14,7 @@ from ANNIEMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="˹🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️˼",
             url=f"https://t.me/kittyxmusic_bot?startgroup=true",
         ),
     ],
@@ -49,7 +49,7 @@ async def ctest(_, message):
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("🦋")
+         msg = await message.reply_text("🐳")
          #GET LIST OF USERS
          list_of_users = []
 
@@ -113,7 +113,8 @@ async def ctest(_, message):
 𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !!**
 """
     
-         await message.reply_photo(f"test_{cid}.png", caption=TXT)
+         await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
+    )
          await msg.delete()
          a = upload_file(f"test_{cid}.png")
          for x in a:
