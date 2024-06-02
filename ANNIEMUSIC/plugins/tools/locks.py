@@ -4,9 +4,6 @@ from pyrogram.types import ChatPermissions, Message
 
 from .help import *
 
-@app.on_message(filters.command(["lock", "l"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & SUDOERS)
-incorrect_parameters = "Incorrect Parameters, Type help locks for help."
-
 data = {
     "msg": "can_send_messages",
     "stickers": "can_send_other_messages",
