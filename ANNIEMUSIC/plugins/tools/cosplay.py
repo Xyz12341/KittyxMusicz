@@ -5,9 +5,9 @@ from pyrogram.enums import ChatAction
 from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
-NYKAA = [
+KITTY = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/kittyxmusic_bot?startgroup=true"),
+        InlineKeyboardButton(text="˹🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️˼", url=f"https://t.me/kittyxmusic_bot?startgroup=true"),
     ],
 ]
 
