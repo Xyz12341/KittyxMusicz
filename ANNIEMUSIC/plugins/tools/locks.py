@@ -2,6 +2,8 @@ from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import ChatNotModified
 from pyrogram.types import ChatPermissions, Message
 
+from config import SUDO_USERS
+
 data = {
     "msg": "can_send_messages",
     "stickers": "can_send_other_messages",
