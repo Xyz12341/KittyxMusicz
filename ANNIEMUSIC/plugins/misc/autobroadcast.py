@@ -2,34 +2,9 @@ import asyncio
 import datetime
 from ANNIEMUSIC import app
 from pyrogram import Client
-from config import START_IMG_URL
 from ANNIEMUSIC.utils.database import get_served_chats
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-
-MESSAGE = f"""**╭───────────────────⦿
-  │☄️ ▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs
-  │✨ ▸ ᴀʟʟ-ɪɴ-ᴏɴᴇ ʙᴏ
-  │🌴 ▸ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
-  │💫 ▸ ᴄʜᴀᴛ-ʙᴏᴛ + ᴍᴜsɪᴄ-ʙᴏᴛ
-  │💤 ▸ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ
-  │🍁 ▸ ɢᴇɴᴇʀᴀᴛᴏʀ ɪᴍᴀɢᴇs + ᴛᴀɢ ᴀʟʟ
-  │🌠 ▸ ᴡᴇʟᴄᴏᴍᴇ + ʟᴇғᴛ ɴᴏᴛɪᴄᴇ
-  │🕳️ ▸ 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ
-  │🍷 ᴛᴀᴘ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅs ᴍʏ ᴅᴇᴀʀ
-  ╰───────────────────⦿
-
-🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
-
-➲ ʙᴏᴛ :** @{app.username}"""
-
-BUTTON = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton("🕸️ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɢɪᴄ 🕸️", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
-        ]
-    ]
-)
+MESSAGE = f"""**@grandxmasti"""
 
 async def send_message_to_chats():
     try:
@@ -39,7 +14,7 @@ async def send_message_to_chats():
             chat_id = chat_info.get('chat_id')
             if isinstance(chat_id, int):  # Check if chat_id is an integer
                 try:
-                    await app.send_photo(chat_id, photo=START_IMG_URL, caption=MESSAGE, reply_markup=BUTTON)
+                    await app.send_photo(chat_id, caption=MESSAGE,)
                     await asyncio.sleep(3)  # Sleep for 1 second between sending messages
                 except Exception as e:
                     pass  # Do nothing if an error occurs while sending message
